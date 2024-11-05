@@ -1,0 +1,44 @@
+div {
+    border: 1px solid forestgreen;
+    display: flex;
+    background-color: aqua;
+}
+
+@media (max-width: 768px) {
+    div {
+        flex-direction: column;
+    }
+    nav {
+        padding-right: 20px;
+        box-sizing: border-box;
+        width: fit-content;
+    }
+    li {
+        padding-right: 20px;
+    }
+}
+
+aside {
+    width: 100%;
+    padding-right: 4px;
+}
+
+nav {
+    padding: 10px 0;
+    background-color: bisque;
+}
+
+ul {
+    width: fit-content;
+}
+
+p {
+    margin: 0;
+    background-color: darkgray;
+}
+
+main {
+    padding-right: 4px;
+    width: 80%;
+    flex-shrink: 0;
+}

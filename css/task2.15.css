@@ -1,0 +1,19 @@
+.inline {
+    float: left;
+}
+
+.inline-div {
+    background-color: aquamarine;
+    width: 180px;
+    height: 100px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.bisque {
+    display: block;
+    background-color: bisque;
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+}

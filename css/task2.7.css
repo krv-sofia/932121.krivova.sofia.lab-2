@@ -1,0 +1,57 @@
+* {
+    color: white;
+}
+
+div {
+    width: 150px;
+    height: 100px;
+}
+
+.static {
+    position: static;
+    background-color: blueviolet;
+}
+
+.relative {
+    position: relative;
+}
+
+.darkred {
+    background-color: darkred;
+}
+
+.peru {
+    top: -30px;
+    left: 30px;
+    background-color: peru;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+.indianred {
+    width: 600px;
+    height: 400px;
+    background-color: indianred;
+}
+
+.absolute {
+    position: absolute;
+    background-color: indigo;
+    right: 0px;
+    top: 120px;
+    width: 300px;
+    height: 200px;
+}
+
+.bottom {
+    box-sizing: border-box;
+    padding: 50px;
+    border: 10px solid blue;
+}

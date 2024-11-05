@@ -1,0 +1,51 @@
+div {
+    border: 1px solid forestgreen;
+    display: flex;
+    background-color: aqua;
+}
+
+img {
+    float: right;
+    width: 50%;
+    object-fit: contain;
+}
+
+aside {
+    width: 100%;
+}
+
+nav {
+    padding: 10px 0;
+    background-color: bisque;
+}
+
+ul {
+    width: fit-content;
+}
+
+p {
+    margin: 0;
+    background-color: darkgray;
+}
+
+@media (max-width: 768px) {
+    ul {
+        display: inline-flex;
+        gap: 4px;
+        margin: 0;
+    }
+
+    div {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 0;
+        margin: 20px 0;
+        height: fit-content;
+    }
+
+    li {
+        list-style-type: none;
+    }
+}

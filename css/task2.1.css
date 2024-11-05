@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+header {
+    padding: 10px;
+    background-color: #EAEAEA;
+    font-weight: bold;
+    height: 60px;
+    font-size: 2em;
+}
+
+.body {
+    display: flex;
+    height: calc(100vh - 110px);
+}
+
+.left {
+    width: 200px;
+    flex-shrink: 0;
+    background-color: #C8FC98;
+}
+
+.red {
+    color: red;
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: black;
+}
+
+a {
+    color: yellow;
+}

@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    max-width: 600px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+}

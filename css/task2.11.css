@@ -1,0 +1,10 @@
+body {
+    border: 2px solid forestgreen;
+    display: flex;
+}
+
+p {
+    background-color: aqua;
+    margin: 0;
+    flex-grow: 1;
+}

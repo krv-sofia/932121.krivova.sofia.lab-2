@@ -1,0 +1,42 @@
+div {
+    border: 1px solid forestgreen;
+    display: flex;
+    background-color: aqua;
+}
+
+img {
+    float: right;
+    width: 50%;
+    object-fit: contain;
+}
+
+aside {
+    width: 100%;
+}
+
+nav {
+    padding: 10px 0;
+    background-color: bisque;
+}
+
+ul {
+    width: fit-content;
+}
+
+p {
+    margin: 0;
+}
+
+main {
+    background-color: darkgray;
+}
+
+.no-float {
+    float: right;
+}
+
+main {
+    padding-right: 4px;
+    width: 80%;
+    flex-shrink: 0;
+}
